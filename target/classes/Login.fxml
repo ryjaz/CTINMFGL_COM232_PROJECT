@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Blend?>
+<?import javafx.scene.effect.Light.Distant?>
+<?import javafx.scene.effect.Lighting?>
+<?import javafx.scene.effect.Shadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="LoginController">
+  <children>
+    <MenuBar style="-fx-background-color: #161a22;" VBox.vgrow="NEVER">
+      <menus>
+        <Menu mnemonicParsing="false" text="Welcome to Steam" />
+      </menus>
+    </MenuBar>
+    <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="386.0" prefWidth="454.0" VBox.vgrow="ALWAYS">
+      <children>
+            <ImageView fitHeight="416.0" fitWidth="679.0" layoutX="-31.0" opacity="0.79" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/steam%20welcome.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="265.0" fitWidth="456.0" layoutX="107.0" layoutY="74.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/temp.jpg" />
+               </image>
+            </ImageView>
+            <Button fx:id="loginbutton" layoutX="218.0" layoutY="223.0" mnemonicParsing="false" onAction="#loginbuttonHandler" prefHeight="26.0" prefWidth="91.0" style="-fx-background-color: #2580fc;;" text="LOG IN" textFill="WHITE">
+               <effect>
+                  <Blend />
+               </effect>
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Label fx:id="passwordlabel" layoutX="129.0" layoutY="150.0" text="PASSWORD" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <PasswordField fx:id="passwordtextfield" layoutX="130.0" layoutY="168.0" prefHeight="26.0" prefWidth="267.0" />
+            <Label fx:id="usernamelabel" layoutX="130.0" layoutY="87.0" text="USERNAME" textFill="#2882d1">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <TextField fx:id="usernametextfield" layoutX="130.0" layoutY="111.0" prefHeight="26.0" prefWidth="267.0" />
+            <ImageView fitHeight="74.0" fitWidth="79.0" layoutX="562.0" layoutY="302.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/adminb.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="adminButton" layoutX="568.0" layoutY="314.0" mnemonicParsing="false" onAction="#handleAdminButton" opacity="0.0" prefHeight="55.0" prefWidth="66.0" text="Admin" />
+      </children>
+         <effect>
+            <Lighting>
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+                  <Light.Distant />
+               </light>
+            </Lighting>
+         </effect>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+    </AnchorPane>
+  </children>
+</VBox>

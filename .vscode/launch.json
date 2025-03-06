@@ -1,0 +1,36 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "main.java.Main",
+            "projectName": "myjavafxproject_ac22995d"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "myjavafxproject_ac22995d"
+        },
+        {
+            "type": "java",
+            "request": "launch",
+            "name": "Launch JavaFX App",
+            "mainClass": "Main",
+            "vmArgs": "--module-path \"C:\\\\Program Files\\\\javafx-sdk-23.0.2\\\\lib\" --add-modules javafx.controls,javafx.fxml"
+        },
+        {
+            "type": "java",
+            "name": "Run with Maven",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal",
+            "preLaunchTask": "maven",
+            "mainClass": "com.example.Main",
+            "vmArgs": "--module-path \"C:\\\\Program Files\\\\javafx-sdk-23.0.2\\\\lib\" --add-modules javafx.controls,javafx.fxml"
+        }
+    ]
+}

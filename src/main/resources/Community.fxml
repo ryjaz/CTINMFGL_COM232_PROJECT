@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<VBox prefHeight="469.0" prefWidth="564.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="CommunityController">
+   <children>
+      <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="429.0" prefWidth="537.0" style="-fx-background-color: #152b46;" VBox.vgrow="ALWAYS">
+         <children>
+            <Label alignment="CENTER" layoutX="155.0" layoutY="177.0" style="&#10;" textAlignment="CENTER" textFill="#9f9f9f" wrapText="false">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="46.0" fitWidth="104.0" layoutX="159.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/storebtn.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="commstorebtn" layoutX="158.0" layoutY="14.0" mnemonicParsing="false" onAction="#backtoCommStoreHandler" opacity="0.0" prefHeight="26.0" prefWidth="107.0" text="Store" />
+            <ImageView fitHeight="27.0" fitWidth="107.0" layoutX="281.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/librarybtn.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="commlibrarybtn" layoutX="282.0" layoutY="14.0" mnemonicParsing="false" onAction="#backtoCommLibraryHandler" opacity="0.0" prefHeight="27.0" prefWidth="107.0" text="Library" />
+            <ImageView fitHeight="27.0" fitWidth="114.0" layoutX="401.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/commbtn.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="commbtn" layoutX="401.0" layoutY="14.0" mnemonicParsing="false" opacity="0.0" prefHeight="27.0" prefWidth="107.0" text="Community" />
+            <Text fill="WHITE" layoutX="89.0" layoutY="87.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Community News and Updates" wrappingWidth="247.44339370727545">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Text>
+            <Separator layoutY="51.0" prefHeight="0.0" prefWidth="640.0" />
+            <Pane layoutX="73.0" layoutY="100.0" prefHeight="335.0" prefWidth="460.0" style="-fx-background-color: #213043;" />
+            <ImageView fitHeight="52.0" fitWidth="53.0" layoutX="22.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/steam.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="174.0" fitWidth="310.0" layoutX="79.0" layoutY="101.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/Screen_Shot_2025-03-06_at_2.44.51_AM.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="176.0" fitWidth="151.0" layoutX="383.0" layoutY="100.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/Screen_Shot_2025-03-06_at_2.46.40_AM.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="88.0" layoutY="285.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/Screen_Shot_2025-03-06_at_2.46.50_AM.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="234.0" layoutY="285.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/Screen_Shot_2025-03-06_at_2.47.00_AM.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="377.0" layoutY="285.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/Screen_Shot_2025-03-06_at_2.47.10_AM.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </children>
+</VBox>

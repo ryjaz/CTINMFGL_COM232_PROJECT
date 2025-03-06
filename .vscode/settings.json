@@ -1,0 +1,17 @@
+{
+    "java.project.sourcePaths": [
+        "src"
+    ],
+    "java.project.outputPath": "bin",
+    "java.project.referencedLibraries": [
+        "c:\\Users\\VIVOBOOK\\Downloads\\vs files\\EXERCISEFIVE\\lib\\javafx.fxml.jar",
+        "c:\\Users\\VIVOBOOK\\Downloads\\vs files\\EXERCISEFIVE\\lib\\javafx.web.jar",
+        "c:\\Users\\VIVOBOOK\\Downloads\\vs files\\EXERCISEFIVE\\lib\\javafx.swing.jar",
+        "c:\\Users\\VIVOBOOK\\Downloads\\vs files\\EXERCISEFIVE\\lib\\javafx-swt.jar",
+        "c:\\Users\\VIVOBOOK\\Downloads\\vs files\\EXERCISEFIVE\\lib\\javafx.base.jar",
+        "c:\\Users\\VIVOBOOK\\Downloads\\vs files\\EXERCISEFIVE\\lib\\javafx.controls.jar",
+        "c:\\Users\\VIVOBOOK\\Downloads\\vs files\\EXERCISEFIVE\\lib\\mysql-connector-j-9.2.0.jar",
+        "c:\\Users\\VIVOBOOK\\Downloads\\vs files\\EXERCISEFIVE\\lib\\javafx.media.jar",
+        "c:\\Users\\VIVOBOOK\\Downloads\\vs files\\EXERCISEFIVE\\lib\\javafx.graphics.jar"
+    ]
+}
